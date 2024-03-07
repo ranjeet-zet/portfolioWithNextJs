@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+*::selection{
+  background-color: rgb(249, 162, 23);
+}
+html{
+  scroll-behavior: smooth;
+}

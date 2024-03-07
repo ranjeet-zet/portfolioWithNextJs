@@ -1,0 +1,38 @@
+.navbar{
+    /* border: 1px solid red; */
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 95%;
+}
+.navebartitel {
+    padding: 8px 12px;
+    /* border: 1px solid red; */
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.navbarsecounddiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbarsecounddiv > a{
+    text-decoration: none;
+    font-size: larger;
+    background-color: blueviolet;
+    color: white;
+    padding:  8px 12px;
+    border-radius: 8px;
+}
+.navbarsecounddiv > .active{
+    background-color: red;
+}
