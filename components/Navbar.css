@@ -8,7 +8,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    width: 95%;
+    width: 100%;
 }
 .navebartitel {
     padding: 8px 12px;
@@ -33,6 +33,59 @@
     padding:  8px 12px;
     border-radius: 8px;
 }
+.navbarsecounddiv > a:hover{
+    background-color: rgb(231, 100, 13);
+}
 .navbarsecounddiv > .active{
     background-color: red;
 }
+.closebutton, .closebuttonclose{
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .closebutton,.closebuttonclose{
+        display: block;
+        width: 10%;
+        align-items: end;
+        margin-right: 20px;
+    }
+    .navbar {
+      /* Adjust the styles for smaller screens here */
+    }
+    .navebartitel {
+      /* Adjust the styles for smaller screens here */
+    }
+    .navbarsecounddiv {
+      /* Adjust the styles for smaller screens here */
+      display: none;
+    }
+    .navbarsecounddivresponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: #242323;
+        height: 100%;
+        position: sticky;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        margin-right: -40px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        padding-top: 12px;
+        border-radius: 10x;
+        transition: right 0.5s;
+    }
+    .navbarsecounddivresponsive a{
+        width: 80%;
+        text-align: center;
+    }
+    .navbarsecounddiv > a {
+      /* Adjust the styles for smaller screens here */
+    }
+    .navbarsecounddiv > .active {
+      /* Adjust the styles for smaller screens here */
+    }
+  }
+  

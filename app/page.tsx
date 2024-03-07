@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import HomePage from '../components/Home'
 import Navbar from '../components/Navbar'
@@ -8,7 +9,7 @@ import  ContactForm from '../components/Contacts'
 export default function Home() {
   return (
     <>
-     <Navbar/>
+    <Navbar/>
     <HomePage/>
     <About/>
     <SkilsPage/>
