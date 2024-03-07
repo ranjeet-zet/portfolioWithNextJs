@@ -1,6 +1,6 @@
 .navbar{
     /* border: 1px solid red; */
-    background-color: transparent;
+    background-color: hsla(0, 0%, 17%, 0.929);
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 100;
 }
 .navebartitel {
     padding: 8px 12px;
@@ -52,6 +53,7 @@
     }
     .navbar {
       /* Adjust the styles for smaller screens here */
+      background-color: transparent;
     }
     .navebartitel {
       /* Adjust the styles for smaller screens here */

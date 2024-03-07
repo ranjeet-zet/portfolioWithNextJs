@@ -10,3 +10,35 @@
    font-size: 8vw;
    font-weight: 600;
 }
+.contact{
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact div{
+    border: 1px solid red;
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact > h1{
+    font-size: 8vw;
+    font-weight: 600;
+ }
+ 
+@media (max-width: 780px) {
+    .contact{
+        display: block;
+        height: 200vh;
+    }
+    .contact div{
+        width: 100%;
+        height: 50%;
+    }
+}
