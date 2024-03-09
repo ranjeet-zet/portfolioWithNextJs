@@ -22,8 +22,8 @@ html{
   height: 100vh;
   overflow: hidden;
   gap: 4px;
-  background-color: #050505;
-  z-index: -100;
+  background-color: #252525;
+  z-index: -1;
 }
 
 .try span {
@@ -33,8 +33,9 @@ html{
   /* border: 1px solid red; */
   box-sizing: border-box;
   transition:  1.5s;
+  /* z-index: ; */
 }
-.try span:hover{
+.try span:hover,.try span:active{
   transition: 0s;
   background-color: #0f0;
 }
